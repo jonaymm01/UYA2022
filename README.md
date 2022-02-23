@@ -1,6 +1,12 @@
 # <div align = "center">**USABILIDAD Y ACCESIBILIDAD**</div>
 ## Proceso a seguir
-
+1.
+2.
+3.
+4.
+5.
+6.
+7.
 ## EJEMPLO DCU
 1. **Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica**.
 
@@ -17,3 +23,5 @@
   - Otras técnicas.
     - Test de usuarios (**Análisis**).
     - Pensamiento en Voz Alta, Método del Conductor e Interacción Constructiva (**Análisis**).
+
+2. 

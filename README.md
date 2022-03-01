@@ -1,27 +1,10 @@
 # <div align = "center">**USABILIDAD Y ACCESIBILIDAD**</div>
 ## Proceso a seguir
-1.
+1.El primer día nos encargamos, entre otras cosas, de la fase de investigación, en la que basicamente nos centramos en hacer entrevistas, tanto grupales como individuales, además de unos cuestionarios con el fin de extraer información interesante de cara al inicio del proyecto. Tras ello, nos dedicamos a crear modelos de usuario para tomar como referencia y, posteriormente crear ejemplos de personajes.
 2.
 3.
 4.
 5.
 6.
 7.
-## EJEMPLO DCU
-1. **Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU y en qué fase del diseño se ubica**.
 
-- ETAPAS Y ACTIVIDADES:
-  - Identificación de requisitos del cliente (**Análisis**).
-    - Entrevista individual a clientes directos (directivos biblioteca).
-  - Técnica de grupo-tormenta de ideas(**Análisis**).
-    - Formado por graduados en ciencias de la información con experiencia.
-  - Estudios de homólogos (análisis competitivo)(**Análisis**).
-    - Coincidencias sintánticas y semánticas.
-  - Card Sorting(**Prototipos**).
-  - Tarea de modelado(**Diseño**).
-  - Prototipado digital(**Prototipos**).
-  - Otras técnicas.
-    - Test de usuarios (**Análisis**).
-    - Pensamiento en Voz Alta, Método del Conductor e Interacción Constructiva (**Análisis**).
-
-2. 

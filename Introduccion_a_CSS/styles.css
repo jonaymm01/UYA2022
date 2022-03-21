@@ -1,0 +1,104 @@
+body {
+    width: 770 px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+#busqueda {
+    position: sticky;
+    height: 100 px;
+    background-image: url("./assets/cabecera.jpg");
+}
+
+#cuerpo div {
+    left: 0%;
+    display: inline-flex;
+    align-items: stretch;
+}
+
+#texto {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: auto;
+}
+
+#articulo {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: auto;
+}
+
+#enlaces {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: auto;
+}
+
+.linea {
+    overflow: hidden;
+}
+
+.elemento_menu {
+    margin: 0.7em;
+    float: left;
+    background-color: greenyellow;
+}
+
+.elemento_menu:hover {
+    background-color: black;
+}
+
+.txt_articulo {
+    margin-top: 0.5em;
+    color: black;   
+}
+
+.enlaces {
+    width: 130 px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+.link_tabla:link {
+    color: green;
+}
+
+.link_tabla:visited {
+    color: green;
+}
+
+.link_tabla:hover {
+    color: green;
+}
+
+.menu {
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+}
+
+#pie {
+    background-color: darkturquoise;
+    font-size: 0.5em;
+}

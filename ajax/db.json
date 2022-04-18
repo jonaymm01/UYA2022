@@ -1,0 +1,38 @@
+{
+    "Compra_1":[
+
+        {
+        "Producto" : "Rey leon",
+        "Precio" : 20  ,
+        "Descuento" : 5 ,
+        "Fecha_Pago" : "17/4/2022"
+        }
+
+    ],
+    "Compra_2":[
+
+        {
+        "Producto" : "Sonic 2",
+        "Precio" : 7  ,
+        "Descuento" : 5 ,
+        "Fecha_Pago" : "17/4/2022"
+        }
+
+    ],
+
+    "Cliente":[
+
+
+        {
+        "nombre" : "Julio",
+        "dni" : "43485315C",
+        "fecha" : "30/10/2001",
+        "cuenta" : "AFSGD376264",
+        "compra" : ["Compra_1","Compra_2"],
+        "mod_pago" : "VISA"
+        }
+
+    ]
+
+
+} 

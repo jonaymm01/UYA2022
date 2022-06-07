@@ -1,0 +1,372 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>AlphaTicket</title>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body id="web">
+  <nav>
+    <div class="nav-wrapper" style="background-color:#546E7A">
+      <div>
+      <a href="#" class="brand-logo">AlphaTicket</a>
+      </div>
+      <ul role="toolbar" class="right hide-on-med-and-down">
+        <li><a tabindex="-1" href="./content/conciertos.html">Conciertos</a></li>
+        <li><a tabindex="-1" href="./content/peliculas.html">Cine</a></li>
+        <li><a tabindex="-1" href="./content/shows.html">Espectáculos</a></li>
+        <li><a tabindex="-1" href="./content/teatro.html">Teatro</a></li>
+        <li><a tabindex="-1" href="./content/deporte.html">Deportes</a></li>
+        <li>          
+          <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label aria-label="barra de navegación" class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons"></i>
+          </div>
+        </form> 
+        </li>
+        <li><a aria-label="registro" tabindex="0" title="registro" href="content/registro.html"><i class="material-icons">account_circle</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col m2 l4 offset-l4">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text" style="background-color:#9b1313">
+            <span tabindex=0 class="card-title">¿Cómo te sientes?</span>
+            <span tabindex=0 class="card-content">Descubre qué te puede apetecer según tu estado de ánimo<br><br></span>
+            <div class="col m2 l4 offset-l7">
+              <button class="waves-effect waves-light btn" onclick="window.location.href='content/emociones.html';" title="Acceder a recomendaciones por sentimiento" style="border: 2px solid white;">
+                Probar
+              </button>
+            </div>  
+          </div>
+        </div>
+    </div>
+  </div>
+
+<script type = "text/javascript" 
+   src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+
+<br><br>
+<div role="separator" class="divider"></div>
+
+      <div class="row">
+        <div class="col m4 offset-m5">
+        <h1 tabindex=0 style="color:#546E7A;">Disfruta de</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2 m2 offset-l1">
+          <div style="text-align:center">
+              <img tabindex=0 alt="icono de conciertos en el que aparece un micrófono" src="assets/iconos/concierto.png" height="300"><br><br>
+              <button class="waves-effect waves-light btn-large" onclick="window.location.href='content/conciertos.html';" title="Ver todas las reservas de conciertos">
+                Conciertos
+              </button>
+            </div>
+        </div>
+        <div class="col s2 m2">
+          <div style="text-align:center">
+              <img tabindex=0 alt="icono de peliculas en el que aparece unas entradas de cine" src="assets/iconos/entradas.png" height="300"><br><br>
+              <button class="waves-effect waves-light btn-large"  onclick="window.location.href='content/peliculas.html';" title="Ver todas las reservas de cine">
+                Películas
+              </button>
+            </div>
+        </div>
+        <div class="col s2 m2">
+          <div style="text-align:center">
+              <img tabindex=0 alt="icono de espéctáculos en el que aparece un escenario" src="assets/iconos/show.png" height="300"><br><br>
+              <button class="waves-effect waves-light btn-large"  onclick="window.location.href='content/shows.html';" title="Ver todas las reservas de espectáculos">
+                Espectáculos
+              </button>
+            </div>
+        </div>
+        <div class="col s2 m2">
+          <div style="text-align:center">
+              <img tabindex=0 alt="icono de teatro en el que aparecen dos máscaras" src="assets/iconos/teatro.png" height="300"><br><br>
+              <button class="waves-effect waves-light btn-large"  onclick="window.location.href='content/teatro.html';" title="Ver todas las reservas de teatro">
+                Teatro
+              </button>
+            </div>
+        </div>
+        <div class="col s2 m2">
+          <div style="text-align:center">
+              <img tabindex=0 alt="icono de deportes en el que aparecen dos balones" src="assets/iconos/deporte.png" height="300"><br><br>
+              <button class="waves-effect waves-light btn-large"  onclick="window.location.href='content/deporte.html';" title="Ver todas las reservas de deporte">
+                Deporte
+              </button>
+            </div>
+        </div>
+      </div>
+      <br><br>
+      <div role="separator" class="divider"></div>
+      <div class="row">
+        <div class="col m2 offset-m5">
+        <h1 tabindex=0 style="color:#546E7A;">Recientes</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m6 l7 offset-l5">
+          <button class="waves-effect waves-light btn-large"  onclick="window.location.href='./content/recientes.html';" title="Ver todas las novedades">
+            Explora las novedades
+          </button>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de un concierto de 5 seconds of summer" src="assets/recientes/recientes1.png">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>¡5SOS vuelve de gira!</p>
+            </div>
+            <div class="card-action">
+              <a href="content/recientes/reciente5sos.html" title="Reserva concierto 5SOS">Reserva concierto 5SOS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada de Sonic 2" src="assets/recientes/recientes2.jpeg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>Próximo estreno - Sonic 2: La película</p>
+            </div>
+            <div class="card-action">
+              <a href="content/recientes/recientes2.html" title="Reserva Sonic 2: La Película">Reserva Sonic 2: La Película</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada del mundial de fútbol de Qatar" src="assets/recientes/recientes4.png">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>Mundial Qatar 2022</p>
+            </div>
+            <div class="card-action">
+              <a href="content/recientes/recienteqatar.html" title="Reserva Mundial Qatar 2022">Reserva Mundial Qatar 2022</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">  
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada del musical el rey léon" src="assets/recientes/recientes3.jpg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>El Rey León vuelve al escenario</p>
+            </div>
+            <div class="card-action">
+              <a href="content/recientes/recienteRL.html" title="Reserva Rey León: El Musical">Reserva Rey León: El Musical</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div role="separator" class="divider"></div>
+      <div class="row">
+        <div tabindex=0 class="col m2 offset-m5">
+          <h1 style="color:#546E7A;">Populares</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m6 l7 offset-l5">
+          <button class="waves-effect waves-light btn-large"  onclick="window.location.href='./content/populares.html';" title="Ver todo el contenido más popular">
+            Explora lo más popular
+          </button>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada de The Batman" src="assets/populares/populares1.jpg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>The Batman - Ya en cines</p>
+            </div>
+            <div class="card-action">
+              <a href="content/populares/popularesbatman.html" title="Reservar entradas para The Batman">Reserva The Batman</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada del disco de fito y fitipaldis" src="assets/populares/populares2.jpg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>Fito & Fitipaldis en concierto</p>
+            </div>
+            <div class="card-action">
+              <a href="content/populares/popularesfito.html" title="Reservar entradas para concierto de Fito y Fitipaldis">Reserva concierto Fito & Fitipaldis</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen del póster de la final de la superliga de league of legends" src="assets/populares/populares3.jpg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>League of Legends - Final</p>
+            </div>
+            <div class="card-action">
+              <a href="content/populares/popularesSL.html" title="Reservar entradas para final League of Legends">Reserva final <span lang="en">League of Legends</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image">
+              <img tabindex=0 alt="imagen de la portada de animales fantásticos 3" src="assets/populares/populares4.jpg">
+            </div>
+            <div tabindex=0 class="card-content">
+              <p>Animales Fantásticos - Reserva tu butaca</p>
+            </div>
+            <div class="card-action">
+              <a href="content/populares/popularesAF.html" title="Reservar entradas de Animales Fantásticos">Reserva Animales Fantásticos 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div role="separator" class="divider"></div>
+      <div class="row">
+        <div tabindex=0 class="col m4 offset-m5">
+          <h1 style="color:#546E7A;">Estrellas</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m6 l7 offset-l5">
+          <button class="waves-effect waves-light btn-large" onclick="window.location.href='./content/estrellas.html';" title="Ver todos los perfiles de las estrellas">
+            Conoce a las estrellas
+          </button>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img tabindex=0 alt="imagen de j balvin" class="activator" src="assets/artistas/artista1.png">
+            </div>
+            <div class="card-content">
+              <span tabindex=0 class="card-title activator grey-text text-darken-4">J Balvin<i tabindex=0 aria-label="más información de J Balvin" class="material-icons right">more_vert</i></span>
+              <p><a href="content/estrellas/jbalvin.html" title="Perfil de J Balvin">Conoce a J Balvin</a></p>
+            </div>
+            <div tabindex=0 class="card-reveal">
+              <span class="card-title grey-text text-darken-4" >J Balvin<i class="material-icons right">close</i></span>
+              <p>José Álvaro Osorio Balvín, ​ conocido artísticamente como J Balvin, es un cantante, compositor y productor discográfico colombiano.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img tabindex=0 alt="imagen de Lebron james" class="activator" src="assets/artistas/artista2.png">
+            </div>
+            <div class="card-content">
+              <span tabindex=0 class="card-title activator grey-text text-darken-4">Lebron James<i tabindex=0 aria-label="más información de Lebron" class="material-icons right">more_vert</i></span>
+              <p><a href="content/estrellas/lebron.html" title="Perfil de LeBron James">Conoce a LeBron James</a></p>
+            </div>
+            <div class="card-reveal">
+              <span tabindex=0 class="card-title grey-text text-darken-4">Lebron James<i class="material-icons right">close</i></span>
+              <p>LeBron Raymone James Sr. es un jugador de baloncesto estadounidense que actualmente 
+                pertenece a la plantilla de Los Angeles Lakers de la NBA. Con 2,06 metros de estatura, su posición es la de alero, pero su talento, 
+                versatilidad y poderío físico le permiten jugar tanto de base como de ala-pívot.​</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img tabindex=0 alt="imagen de Leonardo DiCaprio" class="activator" src="assets/artistas/artista3.png">
+            </div>
+            <div class="card-content">
+              <span tabindex=0 class="card-title activator grey-text text-darken-4">Leonardo DiCaprio<i tabindex=0 aria-label="más información de DiCaprio" class="material-icons right">more_vert</i></span>
+              <p><a href="content/estrellas/dicaprio.html" title="Perfil de Leonardo DiCaprio">Conoce a Leonardo DiCaprio</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Leonardo DiCaprio<i class="material-icons right">close</i></span>
+              <p>Leonardo Wilhelm DiCaprio es un actor, productor de cine y ambientalista estadounidense. 
+                Ha recibido numerosos premios entre los que destacan un Óscar al mejor actor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img tabindex=0 alt="imagen de Eminem" class="activator" src="assets/artistas/artista4.png">
+            </div>
+            <div class="card-content">
+              <span tabindex=0 class="card-title activator grey-text text-darken-4">Eminem<i tabindex=0 aria-label="más información de Eminem" class="material-icons right">more_vert</i></span>
+              <p><a href="content/estrellas/eminem.html" title="Perfil de Eminem">Conoce a Eminem</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Eminem<i class="material-icons right">close</i></span>
+              <p>Marshall Bruce Mathers III, conocido artísticamente como Eminem o como Slim Shady, es un rapero, productor discográfico y actor estadounidense.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <br><br>
+      <footer class="page-footer" style="background-color:#546E7A">
+        <div class="container">
+          <div class="row">
+            <div tabindex=0 class="col l6 s12">
+              <h5 class="white-text">Encuéntranos en:</h5>
+              <div class="row"> 
+                <div tabindex=0 aria-label="direct" class="col s1 m1">
+                  <i class="material-icons">send</i>
+                </div>
+                <div tabindex=0 aria-label="cloud" class="col s1 m1">
+                  <i class="material-icons">cloud</i>
+                </div>
+                <div tabindex=0 aria-label="correo electrónico" class="col s1 m1">
+                  <i class="material-icons">email</i>
+                </div>
+                <div tabindex=0 aria-label="redes sociales" class="col s1 m1">
+                  <i class="material-icons">group</i>
+                </div>
+              </div>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 tabindex=0 class="white-text">¿Alguna duda?</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Ayuda</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Privacidad</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Nosotros</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          </div>
+        </div>
+      </footer>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+    </body>
+  </html>

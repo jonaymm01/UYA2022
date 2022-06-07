@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registro</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"  media="screen,projection"/>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+  <body id="web">
+    <nav>
+      <div class="nav-wrapper" style="background-color:#546E7A">
+        <div>
+        <a href="../prototipo.html" class="brand-logo">AlphaTicket</a>
+        </div>
+        <ul role="toolbar" class="right hide-on-med-and-down">
+          <li><a href="./conciertos.html">Conciertos</a></li>
+          <li><a href="./peliculas.html">Cine</a></li>
+          <li><a href="./shows.html">Espectáculos</a></li>
+          <li><a href="./teatro.html">Teatro</a></li>
+          <li><a href="./deporte.html">Deportes</a></li>
+          <li>         
+            <form>
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label aria-label="barra de navegación" class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons"></i>
+            </div>
+          </form> 
+          </li>
+          <li><a aria-label="registro" title="registro" href="registro.html"><i class="material-icons">account_circle</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="breadcrumb">
+      <li><a href="../prototipo.html">Inicio</a></li>
+      <li style="color: black"><b>Registro</b></li>
+    </ul> 
+
+<div class="row">
+  
+<div class="col m4 l4 offset-m4 offset-l4" >
+  <h5 tabindex="0"> Únete a la familia </h5>
+</div>
+<form id="form-films"> <br>
+  <div class="col m4 l4 offset-m4 offset-l4">  
+  <label tabindex="0" aria-label="dni/nif"for="DNI">DNI:</label>
+  <input aria-label="campo para introducir el dni" type="text" placeholder="DNI/NIF" id="f-dni">
+  </div>
+  
+  <div class="col m4 l4 offset-m4 offset-l4">  
+  <label tabindex="0" aria-label="nombre"for="Name">Nombre:</label>
+  <input aria-label="campo para introducir su nombre" type="text" placeholder="Nombre" id="f-name">
+  </div>
+
+  <div class="col m4 l4 offset-m4 offset-l4">  
+  <label tabindex="0" aria-label="fecha de nacimiento"for="Date">Fecha de nacimiento:</label>
+  <input tabindex="0" aria-label="campo para introducir su fecha de nacimiento" type="date" placeholder="Fecha de nacimiento" id="f-date">
+  </div>
+
+  <div class="col m4 l4 offset-m4 offset-l4">  
+  <label  tabindex="0" aria-label="correo electrónico"for="E-mail">E-Mail:</label>
+  <input aria-label="campo para introducir su email" type="email" placeholder="E-Mail" id="f-email">
+  </div>
+
+  <div class="col m4 l4 offset-m4 offset-l7"> 
+  <br>
+  <button tabindex="0" aria-label="botón para registrarse" id="button-1" class="waves-effect waves-light btn" > Registrarse </button>
+  </div>
+</div>
+</form>
+
+<br><br>
+<footer class="page-footer" style="background-color:#546E7A">
+  <div class="container">
+    <div class="row">
+      <div tabindex=0 class="col l6 s12">
+        <h5 class="white-text">Encuéntranos en:</h5>
+        <div class="row"> 
+          <div tabindex=0 aria-label="direct" class="col s1 m1">
+            <i class="material-icons">send</i>
+          </div>
+          <div tabindex=0 aria-label="cloud" class="col s1 m1">
+            <i class="material-icons">cloud</i>
+          </div>
+          <div tabindex=0 aria-label="correo electrónico" class="col s1 m1">
+            <i class="material-icons">email</i>
+          </div>
+          <div tabindex=0 aria-label="redes sociales" class="col s1 m1">
+            <i class="material-icons">group</i>
+          </div>
+        </div>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 tabindex=0 class="white-text">¿Alguna duda?</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Ayuda</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Privacidad</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    </div>
+  </div>
+</footer>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-database.js"
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCNEp7iU6idtGs9zleY8uilHEwZsi2mfbc",
+      authDomain: "uya-alfaticket.firebaseapp.com",
+      databaseURL: "https://uya-alfaticket-default-rtdb.firebaseio.com",
+      projectId: "uya-alfaticket",
+      storageBucket: "uya-alfaticket.appspot.com",
+      messagingSenderId: "175411061459",
+      appId: "1:175411061459:web:26cde98afbbf4a35696a26"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    window.addEventListener('DOMContentLoaded', () => {})
+    const formFilms = document.getElementById('form-films')
+    formFilms.addEventListener('submit', (e) => {
+        e.preventDefault()
+        const dni = formFilms['f-dni'].value
+        const nombre = formFilms['f-name'].value
+        const fecha = formFilms['f-date'].value
+        const email = formFilms['f-email'].value
+        set(ref(db, 'Usuarios/' + dni), {
+          dni: dni,
+          nombre: nombre,
+          fecha: fecha,
+          email: email,
+        });
+      })
+  </script>
+</body>
+</html>

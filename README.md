@@ -1,4 +1,4 @@
-## <div align = "center">**USABILIDAD Y ACCESIBILIDAD**</div>
+### <div align = "center">**USABILIDAD Y ACCESIBILIDAD**</div>
 # <div align = "center">**ALPHATICKET**</div>
 
 <br>

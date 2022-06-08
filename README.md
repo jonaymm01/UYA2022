@@ -3,7 +3,7 @@
 
 <br>
 
-## Grupo 7
+### Grupo 7
 - **Jonay Méndez Márquez**&emsp;⟶&emsp;alu0101347141@ull.edu.es
 - **Jonathan Martínez Pérez**&emsp;⟶&emsp;alu0101254098@ull.edu.es
 - **Javier Yoendy Hernández Martín**&emsp;⟶&emsp;alu0101184753@ull.edu.es

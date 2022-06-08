@@ -11,10 +11,6 @@
 
 <br>
 
----
-
-<br>
-
 ## Desarrollo de **AlphaTicket**
 1. **HTML**&emsp;⟶&emsp;Primero elaboramos el HTML básico de nuestro proyecto. Este será el esqueleto principal, a partir del cual podremos hacer brotar más tarde las nuevas funcionalidades. Definimos así la forma de nuestra página, el orden en el que se mostrarán los distintos elementos, etc.
 
